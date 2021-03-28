@@ -24,7 +24,7 @@ func main() {
 	// 如果 ok 为 true，即能够取到管道的值
 	for {
 		fmt.Println("main running...")
-		// 关闭通，把通道中的值都取掉后，ok 返回 false
+		// 关闭通道，把通道中的值都取掉后，ok 返回 false
 		if data, ok := <-c; ok {
 			fmt.Println(data)
 		} else {
