@@ -8,6 +8,7 @@ func modifyArray(arr [4]int) {
 }
 
 func main() {
+	// 这种声明是数组
 	var arr = [4]int{1, 2, 3, 4}
 
 	// 第一种遍历方式

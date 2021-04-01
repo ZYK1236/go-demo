@@ -5,7 +5,7 @@ import "fmt"
 func demo1(a int, b int) (int, string) {
 	fmt.Println("------demo1-----")
 	c := a + b
-	d := "nmsl"
+	d := "n"
 	return c, d
 }
 
